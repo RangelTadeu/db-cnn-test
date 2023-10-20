@@ -7,7 +7,7 @@ It is just a simple app to verify credentials or check the connection between th
 clone repo:
 
 ```bash
-
+  git clone git@github.com:RangelTadeu/db-cnn-test.git
 ```
 
 Run to add the alias:
