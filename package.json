@@ -1,0 +1,15 @@
+{
+  "name": "db-cnn-test",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tadeu Rangel",
+    "email": "tadeu.rangel@zooxsmart.com"
+  },
+  "description": "Simple app to test database connections",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^10.0.1",
+    "oracledb": "^6.2.0"
+  }
+}
