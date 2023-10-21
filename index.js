@@ -1,6 +1,7 @@
 const mssql = require("./mssql");
 const oracle = require("./oracle");
 const postgres = require("./postgres");
+const mysql = require("./mysql");
 
 const args = process.argv.slice(2);
 
@@ -13,7 +14,7 @@ if (args.length !== 6) {
 
 const [driver, host, port, db, user, password] = args;
 
-const drivers = { mssql, oracle, postgres };
+const drivers = { mssql, oracle, postgres, mysql };
 
 (async () => {
   const driverFn = drivers[driver];
