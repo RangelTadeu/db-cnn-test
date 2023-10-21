@@ -27,3 +27,4 @@ Run to add the alias:
 - oracle
 - mssql (Microsoft SQL Server)
 - postgres
+- mysql
